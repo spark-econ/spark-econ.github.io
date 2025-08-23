@@ -1,36 +1,38 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Seeun Park"
   navbar:
     left:
       - text: "Home"
-        file: index.qmd
+        href: index.qmd
       - text: "Research"
-        file: research.qmd
+        href: research.qmd
       - text: "Teaching"
-        file: teaching.qmd
+        href: teaching.qmd
       - text: "CV"
-        file: cv.qmd
+        href: cv.qmd
+  site-url: "https://spark-econ.github.io/"
+
+resources:
+  - robots.txt
 
 format:
   html:
     theme: cosmo
-    css: styles.css    
+    css: styles.css
     toc: false
     include-in-header:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <meta name="robots" content="noindex, nofollow">
-                <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXME7FJTTQ"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-YXME7FJTTQ');
+          gtag('config', 'G-YXME7FJTTQ', { 'debug_mode': true });
         </script>
-site-url: "https://spark-econ.github.io/"
-resources:
-  - robots.txt
