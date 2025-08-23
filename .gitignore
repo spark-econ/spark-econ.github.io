@@ -1,0 +1,15 @@
+# Quarto build output
+_site/
+.quarto/idx/
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
+
