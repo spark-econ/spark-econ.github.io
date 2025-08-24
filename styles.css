@@ -14,3 +14,39 @@
   font-weight: 600;
   color: #666;
 }
+
+body {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+  font-size: 0.9rem;   /* smaller than default, ~13.6px */
+  line-height: 1.6;     /* keeps readability */
+  color: #222;          /* slightly darker for contrast */
+  #max-width: 1100px;     /* optional: constrain width */
+  margin: 0 auto;
+}
+
+
+/* Headings: Libre Baskerville */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: #222;
+  margin-top: 1.4rem;
+}
+
+
+/*A custom mini-botton*/
+.btn-cv-mini {
+  font-size: 0.8rem;         /* smaller text */
+  padding: 0.25rem 0.6rem;   /* less padding */
+  border-radius: 4px;
+  background-color: #4169E1; /* your color */
+  border: 1px solid #4169E1;
+  color: #fff;               /* white text */
+}
+
+.btn-cv-mini:hover {
+  background-color: #005f87; /* darker on hover */
+  border-color: #005f87;
+  color: #fff;
+}
