@@ -1,5 +1,12 @@
 /* css styles */
 
+/* Reduce page title size */
+h1.title {
+  font-size: 1.6rem;   /* default is ~2–2.5rem depending on theme */
+  font-weight: 600;    /* keep it bold but not oversized */
+  margin-bottom: 1rem;
+}
+
 .highlight {
   color: #0077b6;
   font-weight: 500;
