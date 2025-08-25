@@ -59,45 +59,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* === Light Mint + Blue Customizations === */
-
-/* Main accent tone */
-:root {
-  --main-accent: #d0f0f8;
-  --accent-text: #111;
+/* Make sidebar a bit narrower */
+.sidebar.navigation {
+  max-width: 250px;
 }
 
-/* Sidebar background and links*/
-.sidebar {
-  background-color: var(--main-accent);
-}*/
-
-
-/*  Keep the left sidebar links styled */
-.sidebar .sidebar-item a {
-  color: var(--accent-text);
+/* Adjust font size in sidebar */
+.sidebar .nav-sidebar {
+  font-size: 0.85rem;   /* top-level */
 }
 
-.sidebar .sidebar-item a:hover {
-  text-decoration: underline;
-}
-
-.sidebar a {
-  color: var(--accent-text);
-}
-
-.sidebar a:hover {
-  text-decoration: underline;
-}
-
-/* Reduce font size of nested items in the sidebar */
+/* Smaller + indented for subitems */
 .sidebar .nav-sidebar .nav-submenu .nav-link {
-  font-size: 0.2rem;   /* adjust as needed */
-  line-height: 1.4;
+  font-size: 0.8rem;
+  padding-left: 1.2rem;  /* indentation */
 }
 
-/* Optional: make them slightly indented for clarity */
-.sidebar .nav-sidebar .nav-submenu {
-  padding-left: 0.5rem;
+/* Active page highlight */
+.sidebar .nav-sidebar .active > .nav-link {
+  font-weight: 600;
+  color: #162aa2;       /* your site accent color */
+  border-left: 3px solid #162aa2;
+  padding-left: calc(1.2rem - 3px); /* keep indent aligned */
+  background: rgba(22, 42, 162, 0.05); /* faint background */
 }
 
+/* Fill the entire docked sidebar with a background color */
+.sidebar.navigation {
+  background-color: #f5f5f5;   /* pick your color */
+  min-height: 100vh;           /* full height */
+  border-right: 1px solid #ddd;
+}
+
+/* Sidebar background color */
+.sidebar {
+  background-color: #f5f5f5;   /* light gray, change to your color */
+}
+
+/* Optional: tweak sidebar border */
+.sidebar.navigation {
+  border-right: 1px solid #ddd;
+}
+
+/* Optional: make sidebar links stand out better on new background */
+.sidebar .nav-link {
+  color: #222;   /* dark text */
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(0,0,0,0.05);  /* hover effect */
+}
+
+.sidebar .active > .nav-link {
+  background-color: rgba(22,42,162,0.1);  /* faint accent background */
+  border-left: 3px solid #162aa2;         /* your site accent color */
+}
+
+#quarto-sidebar {
+  background-color: #fff !important;
+  border-right: 1px solid #ddd !important;
+  min-height: 100vh;
+}
