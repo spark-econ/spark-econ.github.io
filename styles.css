@@ -89,3 +89,15 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar a:hover {
   text-decoration: underline;
 }
+
+/* Reduce font size of nested items in the sidebar */
+.sidebar .nav-sidebar .nav-submenu .nav-link {
+  font-size: 0.2rem;   /* adjust as needed */
+  line-height: 1.4;
+}
+
+/* Optional: make them slightly indented for clarity */
+.sidebar .nav-sidebar .nav-submenu {
+  padding-left: 0.5rem;
+}
+
