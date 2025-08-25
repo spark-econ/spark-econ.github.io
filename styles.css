@@ -57,3 +57,35 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #005f87;
   color: #fff;
 }
+
+
+/* === Light Mint + Blue Customizations === */
+
+/* Main accent tone */
+:root {
+  --main-accent: #d0f0f8;
+  --accent-text: #111;
+}
+
+/* Sidebar background and links*/
+.sidebar {
+  background-color: var(--main-accent);
+}*/
+
+
+/*  Keep the left sidebar links styled */
+.sidebar .sidebar-item a {
+  color: var(--accent-text);
+}
+
+.sidebar .sidebar-item a:hover {
+  text-decoration: underline;
+}
+
+.sidebar a {
+  color: var(--accent-text);
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
