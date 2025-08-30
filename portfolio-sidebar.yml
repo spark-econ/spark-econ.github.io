@@ -1,0 +1,13 @@
+sidebar:
+  style: docked
+  search: true
+  contents:
+    - section: "Current Courses"
+      contents:
+        - econ1101.qmd
+    - section: "Past Courses"
+      contents:
+        - econ101.qmd
+        - econ108.qmd
+    - text: "Evaluations"
+      href: eval.qmd

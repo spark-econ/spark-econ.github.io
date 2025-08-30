@@ -8,19 +8,29 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "CV"
+        href: cv.qmd
       - text: "Research"
         href: research.qmd
       - text: "Teaching"
         href: teaching.qmd
-      - text: "CV"
-        href: cv.qmd
-  site-url: "https://spark-econ.github.io/"
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - text: "ECON 1101"
+        href: econ1101.qmd
+      - text: "ECON 101"
+        href: econ101.qmd
+      - text: "ECON 108"
+        href: econ108.qmd
+      - text: "Evaluations"
+        href: eval.qmd
+site-url: "https://spark-econ.github.io/"
 
-preview:
-  browser: firefox
-    
 resources:
   - robots.txt
+  - Park_Seeun_CV.pdf
 
 format:
   html:
@@ -31,11 +41,13 @@ format:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <meta name="robots" content="noindex, nofollow">
-        # <!-- Google tag (gtag.js) -->
-        # <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXME7FJTTQ"></script>
-        # <script>
-        #  window.dataLayer = window.dataLayer || [];
-        #  function gtag(){dataLayer.push(arguments);}
-        #  gtag('js', new Date());
-        #  gtag('config', 'G-YXME7FJTTQ');
-        # </script>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXME7FJTTQ"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-YXME7FJTTQ');
+        </script>

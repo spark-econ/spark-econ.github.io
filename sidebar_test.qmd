@@ -1,0 +1,18 @@
+---
+title: "Sidebar Test"
+page-layout: article
+sidebar:
+  style: docked
+  search: true
+  contents:
+    - text: "ECON 1101"
+      href: econ1101.qmd
+    - text: "ECON 101"
+      href: econ101.qmd
+    - text: "ECON 108"
+      href: econ108.qmd
+    - text: "Evaluations"
+      href: eval.qmd
+---
+
+This page should show a left sidebar.

@@ -1,3 +1,24 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
+sidebar: false
+format:
+  html:
+    toc: false
+    number-sections: false
+# Show the file's last-modified time as the page date
+date: last-modified
+date-format: "MMM D, YYYY"
 ---
+
+[Download CV (PDF)](Park_Seeun_CV.pdf){.btn-cv-mini target="_blank"}
+
+::: {.ratio .ratio-4x3 style="border:1px solid #e3e3e3; border-radius:8px;"}
+<object data="/Park_Seeun_CV.pdf#view=FitH" type="application/pdf" width="80%" height="100%"> <iframe src="/Park_Seeun_CV.pdf#view=FitH" width="80%" height="100%" style="border:0;"></iframe> </object>
+:::
+
+<br>
+<p class="mt-2" style="font-size:0.9rem; color:#666;">
+
+If the preview doesn’t load, use the download link above.
+
+</p>

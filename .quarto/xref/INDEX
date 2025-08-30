@@ -13,5 +13,23 @@
   },
   "cv.qmd": {
     "cv.html": "77e28ee3"
+  },
+  "portfolio.qmd": {
+    "portfolio.html": "76cdec2b"
+  },
+  "econ1101.qmd": {
+    "econ1101.html": "30f94365"
+  },
+  "eval.qmd": {
+    "eval.html": "dc3a0553"
+  },
+  "econ101.qmd": {
+    "econ101.html": "b5f6e3a6"
+  },
+  "econ108.qmd": {
+    "econ108.html": "0efd5c65"
+  },
+  "sidebar_test.qmd": {
+    "sidebar_test.html": "1e239287"
   }
 }
